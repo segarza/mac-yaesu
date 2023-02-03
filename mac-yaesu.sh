@@ -35,11 +35,10 @@ if [[ $ec != 0 ]]; then
   echo "Rigctl not found!"
   exit 1;
 elif [[ $RIGCTLD_ENABLE = 1 ]]; then
+  RIGCTLD=$RIGCTL"d"
   killall -9 rigctl >/dev/null 2>&1
   killall -9 rigctld >/dev/null 2>&1;
 fi
-
-RIGCTLD=$RIGCTL"d"
 
 # Confirm SL CP210x devices are recognized by macOS 
 if [[ ! -c "/dev/cu.SLAB_USBtoUART" ]]; then
