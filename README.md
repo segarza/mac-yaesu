@@ -1,8 +1,8 @@
 # mac-yaesu
 Bash script to identify correct Yaesu Radio device file on macOS (/dev/cu.SLAB_USBtoUART)
 
-This script was created to address the annoying issue of identifying the correct /dev/cu.SLAB_USBtoUARTx for Yaesu FT-891 & FT-991A radios attached to a Mac running macOS Monterrey.
-It requires Hamlib to be installed on the system. Hamlib can be easily installed using hombrew (https://brew.sh): brew install hamlib
+This script was created to address the annoying task of identifying the correct /dev/cu.SLAB_USBtoUARTx for Yaesu FT-891 & FT-991A radios attached to a Mac running macOS Monterrey. This values often change across reboots.
+This script requires Hamlib to be installed on the system. Hamlib can be easily installed using hombrew (https://brew.sh): brew install hamlib
 
  
 If flrig is installed and enabled (see user configurable settings), the script will launch an instance per radio. 
