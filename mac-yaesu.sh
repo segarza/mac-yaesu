@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# Feb-02-2023  Salvador Garza  AI5FL
 ###################################################################################################
 ###################################################################################################
 # This script was created to address the annoying issue of identifying the correct /dev/cu.SLAB_USBtoUARTx for Yaesu FT-891 & FT-991A radios attached to a Mac running macOS Monterrey.
